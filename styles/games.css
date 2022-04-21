@@ -1,12 +1,12 @@
 .boa:hover .box {
-  transition: 0.5s;
+  transition: all 0.5s ease 0s;
   height: 140px;
 }
 
 .box {
   height: 0;
   overflow: hidden;
-  transition: 0.5s;
+  transition: all 0.5s ease 0s;
   left: 20px;
   background-color: transparent;
 }
