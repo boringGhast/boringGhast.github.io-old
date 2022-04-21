@@ -1,6 +1,6 @@
 .code-imgs {
   position: relative;
-  top: 150px;
+  top: 130px;
   display: flex;
   width: 65%;
   flex-direction: column;
@@ -8,11 +8,13 @@
 }
 
 .code {
+  margin: 25px;
   width: 60%;
   transition: all 0.8s ease 0s;
 }
 
 .code:hover {
+  z-index: 3;
   transform: scale(1.5, 1.5);
   transition: all 0.8s ease 0s;
   box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.4);
